@@ -1,0 +1,10 @@
+/* make the customizations */
+$theme-colors: (
+        "primary": #692b94,
+        "secondary": #a267bf
+);
+
+$border-radius: 15px;
+
+/* import bootstrap to set changes */
+@import "../../node_modules/bootstrap/scss/bootstrap";

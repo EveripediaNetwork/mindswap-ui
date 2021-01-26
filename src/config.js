@@ -1,0 +1,17 @@
+module.exports = {
+  env: process.env.NODE_ENV,
+  publicURL: process.env.PUBLIC_URL,
+  appName: process.env.REACT_APP_APP_NAME,
+  ChainId: process.env.REACT_APP_CHAIN_ID,
+  rpcProtocol: process.env.REACT_APP_RPC_PROTOCOL,
+  rpcHost: process.env.REACT_APP_RPC_HOST,
+  rpcPort: process.env.REACT_APP_RPC_PORT,
+  prediqtApi: process.env.REACT_APP_PREDIQT_API,
+  mindswapApi: process.env.REACT_APP_MINDSWAP_API,
+  skipPreflightCheck: process.env.SKIP_PREFLIGHT_CHECK,
+  mindswapContract: process.env.REACT_APP_MINDSWAP_CONTRACT,
+  prediqTokensContract: process.env.REACT_APP_PREDIQTOKENS_CONTRACT,
+  everipediaIqContract: process.env.REACT_APP_EVERIPEDIAIQ_CONTRACT,
+  prediqtUrl: process.env.REACT_APP_PREDIQT_URL,
+  isProd: process.env.REACT_APP_IS_PROD,
+};
